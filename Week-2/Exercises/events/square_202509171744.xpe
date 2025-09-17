@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.11.2), .xpe-file, coding: UTF-8
+#date: Wed Sep 17 2025 17:44:40
+#sha1: bcdbbd
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='anna', release='6.1.0-37-amd64', version='#1 SMP PREEMPT_DYNAMIC Debian 6.1.140-1 (2025-05-22)', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+97,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x7f462638b740>'
+97,stderr,received,'Traceback (most recent call last):'
+97,stderr,received,'  File "/home/anna/ENS/3A/cogsup/.cog/lib/python3.11/site-packages/expyriment/stimuli/_visual.py", line 266, in __del__'
+98,stderr,received,'    if self._compression_filename is not None:'
+98,stderr,received,'       ^^^^^^^^^^^^^^^^^^^^^^^^^^'
+98,stderr,received,"AttributeError: 'Rectangle' object has no attribute '_compression_filename'"
+98,stderr,received,'Traceback (most recent call last):'
+98,stderr,received,'  File "/home/anna/ENS/3A/cogsup/exp_app/PPE/Week-2/Exercises/square.py", line 18, in <module>'
+98,stderr,received,'    circle = stimuli.Rectangle(radius=50)'
+98,stderr,received,'             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+98,stderr,received,"TypeError: Rectangle.__init__() got an unexpected keyword argument 'radius'"
