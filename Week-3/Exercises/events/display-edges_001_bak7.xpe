@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.11.2), .xpe-file, coding: UTF-8
+#date: Wed Sep 24 2025 17:02:12
+#sha1: ace683
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='anna', release='6.1.0-37-amd64', version='#1 SMP PREEMPT_DYNAMIC Debian 6.1.140-1 (2025-05-22)', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+146,stdout,received,'*** DEVELOP MODE ***'
+708,design,log,
+#design: #exp: Two Squares
+#design: block_cnt,block_id,trial_cnt,trial_id
+708,design,logged,
+708,Experiment,started
+708,stderr,received,'Traceback (most recent call last):'
+708,stderr,received,'  File "/home/anna/ENS/3A/cogsup/exp_app/PPE/Week-3/Exercises/display-edges.py", line 36, in <module>'
+708,stderr,received,'    red_square.present(clear=True, update=True)'
+708,stderr,received,'    ^^^^^^^^^^'
+708,stderr,received,"NameError: name 'red_square' is not defined. Did you mean: 'bl_square'?"

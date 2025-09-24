@@ -1,0 +1,64 @@
+#Expyriment 1.0.0 (Python 3.11.2), .xpe-file, coding: UTF-8
+#date: Wed Sep 24 2025 17:55:59
+#sha1: e9ef21
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='anna', release='6.1.0-37-amd64', version='#1 SMP PREEMPT_DYNAMIC Debian 6.1.140-1 (2025-05-22)', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+190,stdout,received,'*** DEVELOP MODE ***'
+611,design,log,
+#design: #exp: Hermann Grid
+#design: block_cnt,block_id,trial_cnt,trial_id
+611,design,logged,
+611,Experiment,started
+612,Stimulus,presented,0
+613,Stimulus,presented,1
+614,Stimulus,presented,2
+614,Stimulus,presented,3
+615,Stimulus,presented,4
+616,Stimulus,presented,5
+616,Stimulus,presented,6
+617,Stimulus,presented,7
+618,Stimulus,presented,8
+618,Stimulus,presented,9
+619,Stimulus,presented,10
+620,Stimulus,presented,11
+620,Stimulus,presented,12
+621,Stimulus,presented,13
+621,Stimulus,presented,14
+622,Stimulus,presented,15
+622,Stimulus,presented,16
+623,Stimulus,presented,17
+623,Stimulus,presented,18
+624,Stimulus,presented,19
+625,Stimulus,presented,20
+625,Stimulus,presented,21
+626,Stimulus,presented,22
+626,Stimulus,presented,23
+627,Stimulus,presented,24
+627,Stimulus,presented,25
+628,Stimulus,presented,26
+628,Stimulus,presented,27
+629,Stimulus,presented,28
+629,Stimulus,presented,29
+630,Stimulus,presented,30
+631,Stimulus,presented,31
+632,Stimulus,presented,32
+632,Stimulus,presented,33
+633,Stimulus,presented,34
+633,Stimulus,presented,35
+634,Stimulus,presented,36
+634,Stimulus,presented,37
+635,Stimulus,presented,38
+636,Stimulus,presented,39
+637,Stimulus,presented,40
+638,Stimulus,presented,41
+638,Stimulus,presented,42
+639,Stimulus,presented,43
+639,Stimulus,presented,44
+640,Stimulus,presented,45
+641,Stimulus,presented,46
+656,Stimulus,presented,47
+1043,Keyboard,received,32,wait
+1043,Experiment,ended
+1093,Stimulus,presented,48

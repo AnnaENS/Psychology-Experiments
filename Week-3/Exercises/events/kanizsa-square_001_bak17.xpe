@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.11.2), .xpe-file, coding: UTF-8
+#date: Wed Sep 24 2025 17:25:08
+#sha1: ea17d3
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='anna', release='6.1.0-37-amd64', version='#1 SMP PREEMPT_DYNAMIC Debian 6.1.140-1 (2025-05-22)', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+147,stdout,received,'*** DEVELOP MODE ***'
+511,design,log,
+#design: #exp: Kanizsa Squares
+#design: block_cnt,block_id,trial_cnt,trial_id
+511,design,logged,
+511,Experiment,started
+512,Stimulus,presented,0
+513,Stimulus,presented,4
+513,Stimulus,presented,1
+514,Stimulus,presented,2
+535,Stimulus,presented,3
+3239,Keyboard,received,1073742051,wait
+3239,Experiment,ended
+3289,Stimulus,presented,5
