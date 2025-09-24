@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.11.2), .xpe-file, coding: UTF-8
+#date: Wed Sep 24 2025 11:59:10
+#sha1: 79b7f8
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='anna', release='6.1.0-37-amd64', version='#1 SMP PREEMPT_DYNAMIC Debian 6.1.140-1 (2025-05-22)', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+149,stderr,received,'Traceback (most recent call last):'
+149,stderr,received,'  File "/home/anna/ENS/3A/cogsup/exp_app/PPE/Week-2/Exercises/two_squares.py", line 22, in <module>'
+149,stderr,received,'    line_1 = stimuli.Line((100,100), (140, 190), line_width=20, colour=misc.constants.C_BLUE)'
+149,stderr,received,'                                                                       ^^^^'
+149,stderr,received,"NameError: name 'misc' is not defined"

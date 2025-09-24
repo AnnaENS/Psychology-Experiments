@@ -1,0 +1,68 @@
+#Expyriment 1.0.0 (Python 3.11.2), .xpe-file, coding: UTF-8
+#date: Sat Sep 20 2025 23:32:28
+#sha1: 91b0ee
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='anna', release='6.1.0-37-amd64', version='#1 SMP PREEMPT_DYNAMIC Debian 6.1.140-1 (2025-05-22)', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1353,design,log,
+#design: #exp: Launching Function
+#design: block_cnt,block_id,trial_cnt,trial_id
+1353,design,logged,
+1353,Experiment,started
+1354,Stimulus,presented,0
+1358,Stimulus,presented,1
+2359,Stimulus,presented,0
+2376,Stimulus,presented,1
+2427,Stimulus,presented,0
+2443,Stimulus,presented,1
+2493,Stimulus,presented,0
+2509,Stimulus,presented,1
+2560,Stimulus,presented,0
+2576,Stimulus,presented,1
+2627,Stimulus,presented,0
+2643,Stimulus,presented,1
+2693,Stimulus,presented,0
+2709,Stimulus,presented,1
+2760,Stimulus,presented,0
+2776,Stimulus,presented,1
+2827,Stimulus,presented,0
+2843,Stimulus,presented,1
+2894,Stimulus,presented,0
+2910,Stimulus,presented,1
+2960,Stimulus,presented,0
+2976,Stimulus,presented,1
+3027,Stimulus,presented,0
+3043,Stimulus,presented,1
+3094,Stimulus,presented,0
+3110,Stimulus,presented,1
+3161,Stimulus,presented,0
+3177,Stimulus,presented,1
+3227,Stimulus,presented,0
+3243,Stimulus,presented,1
+3294,Stimulus,presented,0
+3310,Stimulus,presented,1
+3361,Stimulus,presented,0
+3377,Stimulus,presented,1
+3428,Stimulus,presented,0
+3444,Stimulus,presented,1
+3495,Stimulus,presented,0
+3510,Stimulus,presented,1
+3561,Stimulus,presented,0
+3577,Stimulus,presented,1
+3628,Stimulus,presented,0
+3644,Stimulus,presented,1
+3695,Stimulus,presented,0
+3710,Stimulus,presented,1
+3761,Stimulus,presented,0
+3777,Stimulus,presented,1
+3828,Stimulus,presented,0
+3844,Stimulus,presented,1
+3895,Stimulus,presented,0
+3911,Stimulus,presented,1
+3948,stderr,received,'Traceback (most recent call last):'
+3948,stderr,received,'  File "/home/anna/ENS/3A/cogsup/exp_app/PPE/Week-2/Exercises/launching_function.py", line 58, in <module>'
+3949,stderr,received,'    launching_event(exp, temporal_gap=0, spatial_gap=0, speed=1)'
+3949,stderr,received,'  File "/home/anna/ENS/3A/cogsup/exp_app/PPE/Week-2/Exercises/launching_function.py", line 41, in launching_event'
+3949,stderr,received,'    time.sleep(0.05)'
+3949,stderr,received,'KeyboardInterrupt'

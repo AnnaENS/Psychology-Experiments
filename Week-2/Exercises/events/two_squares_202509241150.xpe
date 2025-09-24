@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.11.2), .xpe-file, coding: UTF-8
+#date: Wed Sep 24 2025 11:50:40
+#sha1: bb6e89
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='anna', release='6.1.0-37-amd64', version='#1 SMP PREEMPT_DYNAMIC Debian 6.1.140-1 (2025-05-22)', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+133,stderr,received,'Traceback (most recent call last):'
+133,stderr,received,'  File "/home/anna/ENS/3A/cogsup/exp_app/PPE/Week-2/Exercises/two_squares.py", line 18, in <module>'
+133,stderr,received,'    purple_triangle = stimuli.Shape(vertex_list=geometry.vertices_regular_polygon(5, 60))'
+133,stderr,received,'                                                ^^^^^^^^'
+133,stderr,received,"NameError: name 'geometry' is not defined"

@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.11.2), .xpe-file, coding: UTF-8
+#date: Wed Sep 24 2025 11:51:11
+#sha1: 4bbda4
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='anna', release='6.1.0-37-amd64', version='#1 SMP PREEMPT_DYNAMIC Debian 6.1.140-1 (2025-05-22)', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1647,design,log,
+#design: #exp: Two Squares
+#design: block_cnt,block_id,trial_cnt,trial_id
+1647,design,logged,
+1647,Experiment,started
+1648,Stimulus,presented,0
+1671,Stimulus,presented,1
+1687,Stimulus,presented,2
+5901,Keyboard,received,32,wait
+5901,Experiment,ended
+5950,Stimulus,presented,3

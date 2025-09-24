@@ -1,9 +1,9 @@
 # Import the main modules of expyriment
 from expyriment import design, control, stimuli
 
-control.defaults.initialise_delay = 0 # No countdown
-control.defaults.window_mode = True # Not full-screen
-control.defaults.fast_quit = True # No goodbye message
+control.defaults.initialise_delay = 0
+control.defaults.window_mode = True
+control.defaults.fast_quit = True
 
 exp = design.Experiment(name = "Square")
 
