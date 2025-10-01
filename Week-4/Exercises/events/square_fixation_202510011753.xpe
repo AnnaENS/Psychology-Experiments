@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.11.2), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 17:53:47
+#sha1: 2c09d9
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='anna', release='6.1.0-37-amd64', version='#1 SMP PREEMPT_DYNAMIC Debian 6.1.140-1 (2025-05-22)', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+119,stderr,received,'Traceback (most recent call last):'
+119,stderr,received,'  File "/home/anna/ENS/3A/cogsup/exp_app/PPE/Week-4/Exercises/square_fixation.py", line 12, in <module>'
+119,stderr,received,'    fixation_position = (square.surface.get_width() // 2, square.surface.get_height() // 2)'
+119,stderr,received,'                         ^^^^^^^^^^^^^^'
+119,stderr,received,"AttributeError: 'Rectangle' object has no attribute 'surface'. Did you mean: '_surface'?"
