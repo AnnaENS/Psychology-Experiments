@@ -13,8 +13,9 @@ t0 = exp.clock.time
 
 exp.clock.wait(1000)
 
-text.present()
+# the original code measured time during the wait and the time it takes to present the text
 t1 = exp.clock.time
+text.present()
 fix_duration = (t1 - t0)/1000
 
 exp.clock.wait(1000)
