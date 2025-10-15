@@ -1,0 +1,16 @@
+#Expyriment 1.0.0 (Python 3.11.2), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 18:48:34
+#sha1: 7c66ac
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='anna', release='6.1.0-37-amd64', version='#1 SMP PREEMPT_DYNAMIC Debian 6.1.140-1 (2025-05-22)', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+127,Stimulus,presented,0
+127,Stimulus,presented,1
+136,stderr,received,'Traceback (most recent call last):'
+136,stderr,received,'  File "/home/anna/ENS/3A/cogsup/exp_app/PPE/Week-4/Exercises/drawing_functions.py", line 47, in <module>'
+136,stderr,received,'    present_for(stims, exp, 500)'
+137,stderr,received,'  File "/home/anna/ENS/3A/cogsup/exp_app/PPE/Week-4/Exercises/drawing_functions.py", line 22, in present_for'
+137,stderr,received,'    exp.process_event()'
+137,stderr,received,'    ^^^^^^^^^^^^^^^^^'
+137,stderr,received,"AttributeError: 'Experiment' object has no attribute 'process_event'"

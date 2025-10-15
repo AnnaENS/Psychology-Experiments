@@ -1,0 +1,16 @@
+#Expyriment 1.0.0 (Python 3.11.2), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 18:49:09
+#sha1: 0caaad
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='anna', release='6.1.0-37-amd64', version='#1 SMP PREEMPT_DYNAMIC Debian 6.1.140-1 (2025-05-22)', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+130,Stimulus,presented,0
+130,Stimulus,presented,1
+138,stderr,received,'Traceback (most recent call last):'
+138,stderr,received,'  File "/home/anna/ENS/3A/cogsup/exp_app/PPE/Week-4/Exercises/drawing_functions.py", line 47, in <module>'
+138,stderr,received,'    present_for(stims, exp, 500)'
+138,stderr,received,'  File "/home/anna/ENS/3A/cogsup/exp_app/PPE/Week-4/Exercises/drawing_functions.py", line 22, in present_for'
+138,stderr,received,'    control.process_control_events()'
+138,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+138,stderr,received,"AttributeError: module 'expyriment.control' has no attribute 'process_control_events'"

@@ -1,0 +1,13 @@
+#Expyriment 1.0.0 (Python 3.11.2), .xpe-file, coding: UTF-8
+#date: Wed Oct 01 2025 18:33:31
+#sha1: 03b39b
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='anna', release='6.1.0-37-amd64', version='#1 SMP PREEMPT_DYNAMIC Debian 6.1.140-1 (2025-05-22)', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+134,Stimulus,presented,0
+1135,stderr,received,'Traceback (most recent call last):'
+1135,stderr,received,'  File "/home/anna/ENS/3A/cogsup/exp_app/PPE/Week-4/Exercises/timing_puzzle.py", line 15, in <module>'
+1135,stderr,received,'    expyriment.stimuli.BlankScreen().present()  # Clear fixation after 1 second'
+1135,stderr,received,'    ^^^^^^^^^^'
+1135,stderr,received,"NameError: name 'expyriment' is not defined"

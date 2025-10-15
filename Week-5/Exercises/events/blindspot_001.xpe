@@ -1,0 +1,30 @@
+#Expyriment 1.0.0 (Python 3.11.2), .xpe-file, coding: UTF-8
+#date: Wed Oct 15 2025 17:52:03
+#sha1: e7a846
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='anna', release='6.1.0-37-amd64', version='#1 SMP PREEMPT_DYNAMIC Debian 6.1.140-1 (2025-05-22)', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2699,design,log,
+#design: #exp: Blindspot
+#design: #dvn: eye,key,radius,x,y
+#design: block_cnt,block_id,trial_cnt,trial_id
+2699,design,logged,
+2699,Experiment,started
+2723,Stimulus,presented,0
+3260,Keyboard,received,32,wait
+3266,Stimulus,presented,1
+3771,Keyboard,received,32,wait
+3774,Stimulus,presented,2
+3774,Stimulus,presented,3
+4290,Keyboard,received,32,wait
+4296,Stimulus,presented,4
+4799,Keyboard,received,32,wait
+4802,Stimulus,presented,5
+4802,Stimulus,presented,6
+5117,Keyboard,received,32,wait
+5122,Stimulus,presented,7
+5561,Keyboard,received,32,wait
+5561,Experiment,ended
+5562,Data,saved
+5589,Stimulus,presented,8

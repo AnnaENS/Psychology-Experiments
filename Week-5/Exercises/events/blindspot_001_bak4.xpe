@@ -1,0 +1,58 @@
+#Expyriment 1.0.0 (Python 3.11.2), .xpe-file, coding: UTF-8
+#date: Wed Oct 15 2025 17:51:20
+#sha1: f7c0e5
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Linux', node='anna', release='6.1.0-37-amd64', version='#1 SMP PREEMPT_DYNAMIC Debian 6.1.140-1 (2025-05-22)', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+7265,design,log,
+#design: #exp: Blindspot
+#design: #dvn: eye,key,radius,x,y
+#design: block_cnt,block_id,trial_cnt,trial_id
+7266,design,logged,
+7266,Experiment,started
+7273,Stimulus,presented,0
+14622,Keyboard,received,32,wait
+14630,Stimulus,presented,1
+26460,Keyboard,received,32,wait
+26462,Stimulus,presented,2
+26462,Stimulus,presented,3
+27611,Keyboard,received,1073741903,wait
+27612,Stimulus,presented,2
+27612,Stimulus,presented,3
+28419,Keyboard,received,1073741904,wait
+28419,Stimulus,presented,2
+28419,Stimulus,presented,3
+29845,Keyboard,received,1073741904,wait
+29845,Stimulus,presented,2
+29845,Stimulus,presented,3
+29998,Keyboard,received,1073741904,wait
+29999,Stimulus,presented,2
+29999,Stimulus,presented,3
+30146,Keyboard,received,1073741904,wait
+30146,Stimulus,presented,2
+30146,Stimulus,presented,3
+30273,Keyboard,received,1073741904,wait
+30273,Stimulus,presented,2
+30273,Stimulus,presented,3
+30426,Keyboard,received,1073741904,wait
+30426,Stimulus,presented,2
+30426,Stimulus,presented,3
+30750,Keyboard,received,32,wait
+30756,Stimulus,presented,4
+33389,Keyboard,received,32,wait
+33392,Stimulus,presented,5
+33392,Stimulus,presented,6
+33929,Keyboard,received,32,wait
+33929,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x7fb5299794e0>'
+33929,stderr,received,'Traceback (most recent call last):'
+33929,stderr,received,'  File "/home/anna/ENS/3A/cogsup/.cog/lib/python3.11/site-packages/expyriment/stimuli/_visual.py", line 266, in __del__'
+33929,stderr,received,'    if self._compression_filename is not None:'
+33929,stderr,received,'       ^^^^^^^^^^^^^^^^^^^^^^^^^^'
+33929,stderr,received,"AttributeError: 'TextScreen' object has no attribute '_compression_filename'"
+33930,stderr,received,'Traceback (most recent call last):'
+33930,stderr,received,'  File "/home/anna/ENS/3A/cogsup/exp_app/PPE/Week-5/Exercises/blindspot.py", line 102, in <module>'
+33930,stderr,received,'    stimuli.TextScreen("Done. Press any key to quit.").present()'
+33930,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+33930,stderr,received,"TypeError: TextScreen.__init__() missing 1 required positional argument: 'text'"
+33930,Data,saved
