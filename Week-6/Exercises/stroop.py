@@ -4,11 +4,11 @@ import random
 
 """ Constants """
 KEYS = [K_j, K_f]
-TRIAL_TYPES = 
-COLORS =
+TRIAL_TYPES = ["match", "mismatch"]
+COLORS = [("red", (255,0,0)), ("blue", (0,0,255)), ("green", (0,255,0)), ("orange", (255,165,0))]
 
-N_BLOCKS = 
-N_TRIALS_IN_BLOCK = 
+N_BLOCKS = 32
+N_TRIALS_IN_BLOCK = 2
 
 INSTR_START = """
 In this task, you have to indicate whether the meaning of a word and the color of its font match.
@@ -55,8 +55,8 @@ control.initialize(exp)
 fixation = stimuli.FixCross()
 fixation.preload()
 
-stims = stims = {w: {c: stimuli.TextLine(w, text_colour=c) for c in COLORS} for w in COLORS}
-load([stims[w][c] for w in COLORS for c in COLORS])
+stims = {w: {c: stimuli.TextLine(w, text_colour=rgb) for c, rgb in COLORS} for w, _ in COLORS}
+load([stims[w][c] for w, _ in COLORS for c, _ in COLORS])
 
 feedback_correct = stimuli.TextLine(FEEDBACK_CORRECT)
 feedback_incorrect = stimuli.TextLine(FEEDBACK_INCORRECT)
@@ -78,9 +78,14 @@ control.start(subject_id=1)
 present_instructions(INSTR_START)
 for block_id in range(1, N_BLOCKS + 1):
     for trial_id in range(1, N_TRIALS_IN_BLOCK + 1):
-        trial_type =
-        word = 
-        color = 
+        # randomly select trial type
+        trial_type = random.choice(TRIAL_TYPES)
+        # randomly select a word (color name)
+        word, word_rgb = random.choice(COLORS)
+        if trial_type == "match":
+            color = word
+        else:
+            color = random.choice([c for c, _ in COLORS if c != word])
         run_trial(block_id, trial_id, trial_type, word, color)
     if block_id != N_BLOCKS:
         present_instructions(INSTR_MID)
